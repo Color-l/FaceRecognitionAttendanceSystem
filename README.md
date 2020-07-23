@@ -1,0 +1,2 @@
+# FaceRecognitionAttendanceSystem
+基于Python+opencv+keras+numpy+sklearn的人脸识别门禁系统
