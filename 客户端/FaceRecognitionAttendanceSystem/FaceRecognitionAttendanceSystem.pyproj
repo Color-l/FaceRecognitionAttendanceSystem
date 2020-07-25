@@ -1,0 +1,165 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d29aafc1-bf09-42b8-9d81-9a0fade1736c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>FaceRecognition.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>FaceRecognitionAttendanceSystem</Name>
+    <RootNamespace>FaceRecognitionAttendanceSystem</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FaceDateSet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FaceRecognition.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FaceRecognitionAttendanceSystem.py" />
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModelTraining.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageAcquisition.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FaceImageDate\" />
+    <Folder Include="FaceImageDate\others\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FaceImageDate\others\1_1.jpg" />
+    <Content Include="FaceImageDate\others\1_10.jpg" />
+    <Content Include="FaceImageDate\others\1_100.jpg" />
+    <Content Include="FaceImageDate\others\1_101.jpg" />
+    <Content Include="FaceImageDate\others\1_102.jpg" />
+    <Content Include="FaceImageDate\others\1_103.jpg" />
+    <Content Include="FaceImageDate\others\1_11.jpg" />
+    <Content Include="FaceImageDate\others\1_12.jpg" />
+    <Content Include="FaceImageDate\others\1_13.jpg" />
+    <Content Include="FaceImageDate\others\1_14.jpg" />
+    <Content Include="FaceImageDate\others\1_15.jpg" />
+    <Content Include="FaceImageDate\others\1_16.jpg" />
+    <Content Include="FaceImageDate\others\1_17.jpg" />
+    <Content Include="FaceImageDate\others\1_18.jpg" />
+    <Content Include="FaceImageDate\others\1_19.jpg" />
+    <Content Include="FaceImageDate\others\1_2.jpg" />
+    <Content Include="FaceImageDate\others\1_20.jpg" />
+    <Content Include="FaceImageDate\others\1_21.jpg" />
+    <Content Include="FaceImageDate\others\1_22.jpg" />
+    <Content Include="FaceImageDate\others\1_23.jpg" />
+    <Content Include="FaceImageDate\others\1_24.jpg" />
+    <Content Include="FaceImageDate\others\1_25.jpg" />
+    <Content Include="FaceImageDate\others\1_26.jpg" />
+    <Content Include="FaceImageDate\others\1_27.jpg" />
+    <Content Include="FaceImageDate\others\1_28.jpg" />
+    <Content Include="FaceImageDate\others\1_29.jpg" />
+    <Content Include="FaceImageDate\others\1_3.jpg" />
+    <Content Include="FaceImageDate\others\1_30.jpg" />
+    <Content Include="FaceImageDate\others\1_31.jpg" />
+    <Content Include="FaceImageDate\others\1_32.jpg" />
+    <Content Include="FaceImageDate\others\1_33.jpg" />
+    <Content Include="FaceImageDate\others\1_34.jpg" />
+    <Content Include="FaceImageDate\others\1_35.jpg" />
+    <Content Include="FaceImageDate\others\1_36.jpg" />
+    <Content Include="FaceImageDate\others\1_37.jpg" />
+    <Content Include="FaceImageDate\others\1_38.jpg" />
+    <Content Include="FaceImageDate\others\1_39.jpg" />
+    <Content Include="FaceImageDate\others\1_4.jpg" />
+    <Content Include="FaceImageDate\others\1_40.jpg" />
+    <Content Include="FaceImageDate\others\1_41.jpg" />
+    <Content Include="FaceImageDate\others\1_42.jpg" />
+    <Content Include="FaceImageDate\others\1_43.jpg" />
+    <Content Include="FaceImageDate\others\1_44.jpg" />
+    <Content Include="FaceImageDate\others\1_45.jpg" />
+    <Content Include="FaceImageDate\others\1_46.jpg" />
+    <Content Include="FaceImageDate\others\1_47.jpg" />
+    <Content Include="FaceImageDate\others\1_48.jpg" />
+    <Content Include="FaceImageDate\others\1_49.jpg" />
+    <Content Include="FaceImageDate\others\1_5.jpg" />
+    <Content Include="FaceImageDate\others\1_50.jpg" />
+    <Content Include="FaceImageDate\others\1_51.jpg" />
+    <Content Include="FaceImageDate\others\1_52.jpg" />
+    <Content Include="FaceImageDate\others\1_53.jpg" />
+    <Content Include="FaceImageDate\others\1_54.jpg" />
+    <Content Include="FaceImageDate\others\1_55.jpg" />
+    <Content Include="FaceImageDate\others\1_56.jpg" />
+    <Content Include="FaceImageDate\others\1_57.jpg" />
+    <Content Include="FaceImageDate\others\1_58.jpg" />
+    <Content Include="FaceImageDate\others\1_59.jpg" />
+    <Content Include="FaceImageDate\others\1_6.jpg" />
+    <Content Include="FaceImageDate\others\1_60.jpg" />
+    <Content Include="FaceImageDate\others\1_61.jpg" />
+    <Content Include="FaceImageDate\others\1_62.jpg" />
+    <Content Include="FaceImageDate\others\1_63.jpg" />
+    <Content Include="FaceImageDate\others\1_64.jpg" />
+    <Content Include="FaceImageDate\others\1_65.jpg" />
+    <Content Include="FaceImageDate\others\1_66.jpg" />
+    <Content Include="FaceImageDate\others\1_67.jpg" />
+    <Content Include="FaceImageDate\others\1_68.jpg" />
+    <Content Include="FaceImageDate\others\1_69.jpg" />
+    <Content Include="FaceImageDate\others\1_7.jpg" />
+    <Content Include="FaceImageDate\others\1_70.jpg" />
+    <Content Include="FaceImageDate\others\1_71.jpg" />
+    <Content Include="FaceImageDate\others\1_72.jpg" />
+    <Content Include="FaceImageDate\others\1_73.jpg" />
+    <Content Include="FaceImageDate\others\1_74.jpg" />
+    <Content Include="FaceImageDate\others\1_75.jpg" />
+    <Content Include="FaceImageDate\others\1_76.jpg" />
+    <Content Include="FaceImageDate\others\1_77.jpg" />
+    <Content Include="FaceImageDate\others\1_78.jpg" />
+    <Content Include="FaceImageDate\others\1_79.jpg" />
+    <Content Include="FaceImageDate\others\1_8.jpg" />
+    <Content Include="FaceImageDate\others\1_80.jpg" />
+    <Content Include="FaceImageDate\others\1_81.jpg" />
+    <Content Include="FaceImageDate\others\1_82.jpg" />
+    <Content Include="FaceImageDate\others\1_83.jpg" />
+    <Content Include="FaceImageDate\others\1_84.jpg" />
+    <Content Include="FaceImageDate\others\1_85.jpg" />
+    <Content Include="FaceImageDate\others\1_86.jpg" />
+    <Content Include="FaceImageDate\others\1_87.jpg" />
+    <Content Include="FaceImageDate\others\1_88.jpg" />
+    <Content Include="FaceImageDate\others\1_89.jpg" />
+    <Content Include="FaceImageDate\others\1_9.jpg" />
+    <Content Include="FaceImageDate\others\1_90.jpg" />
+    <Content Include="FaceImageDate\others\1_91.jpg" />
+    <Content Include="FaceImageDate\others\1_92.jpg" />
+    <Content Include="FaceImageDate\others\1_93.jpg" />
+    <Content Include="FaceImageDate\others\1_94.jpg" />
+    <Content Include="FaceImageDate\others\1_95.jpg" />
+    <Content Include="FaceImageDate\others\1_96.jpg" />
+    <Content Include="FaceImageDate\others\1_97.jpg" />
+    <Content Include="FaceImageDate\others\1_98.jpg" />
+    <Content Include="FaceImageDate\others\1_99.jpg" />
+    <Content Include="FaceRecognitionAttendanceSystem.ui" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
