@@ -2,7 +2,7 @@
 基于Python+opencv+keras+numpy+sklearn的人脸识别门禁系统
 
 欢迎访问个人博客：https://www.ikunl.com
-项目地址：https://www.ikunl.com/14.html
+项目地址：https://www.ikunl.com/1.html
 
 FaceRecognitionAttendanceSystem
 Python+opencv+keras+numpy+sklearn的人脸识别门禁系统
