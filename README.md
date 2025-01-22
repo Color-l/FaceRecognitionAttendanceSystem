@@ -1,9 +1,8 @@
 # FaceRecognitionAttendanceSystem
 基于Python+opencv+keras+numpy+sklearn的人脸识别门禁系统
 
-欢迎访问个人博客：https://flblog.top
-
-项目地址：https://flblog.top/14.html
+欢迎访问个人博客：https://www.ikunl.com
+项目地址：https://www.ikunl.com/14.html
 
 FaceRecognitionAttendanceSystem
 Python+opencv+keras+numpy+sklearn的人脸识别门禁系统
@@ -12,7 +11,7 @@ Python+opencv+keras+numpy+sklearn的人脸识别门禁系统
 
 作者	翁飞龙
 QQ交流群	692695467(点击跳转)
-博客地址	https://www.flblog.top
+博客地址	https://www.ikunl.com
 
 使用环境
 windows/Linux,支持Python3.6以上版本和GCC的编辑器
